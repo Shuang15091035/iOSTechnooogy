@@ -1,0 +1,30 @@
+<html>
+    
+    <head>
+        <meta http-equiv="content-type" content="text/html" chartset="utf-8"/>
+        <title>shuangTest</title>
+        
+        <script>
+            function btnClick() {
+<!--                window.location.href = 'lyl://btnClick';-->
+                window.location.href = 'alter://showAlter';
+            }
+            function displayDate() {
+                document.getElemmentById("demo").innerHTML=Date();
+            }
+        </script>
+        
+    </head>
+    <body>
+        
+        <hr>
+        
+        <img src="http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg" style="vertical-align:middle" width="200" height="200" text-align:center> </img>
+        <button onclick="btnClick()">访问相册</button>
+        <p id="demo"> 这是一个段落 </p>
+        <button type="button" onclick="displayDate()"> 显示日期 </button>
+    </body>
+</html>
+    
+
+<!-- html formmate markup-->
